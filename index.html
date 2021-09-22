@@ -5,21 +5,36 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>BANANA SPEAK</title>
 </head>
 
 <body>
-    <h1>Let's translate to minion language</h1>
+    <nav class="navigation">
+        <h1>Translate to Minion Language</h1>
+    </nav>
 
-    <label for="text-content"></label>
-    <textarea name="text-content" id="text-content" cols="30" rows="10"
-        placeholder="Please enter your text here"></textarea>
-    <button id="click-btn">Click To Translate</button>
-    <div id="output-text">
-        <label for="output-content"></label>
-        <textarea id="output-content" cols="30" rows="10" placeholder="You will get output here"></textarea>
-    </div>
+    <section class="container">
+        <label for="text-content"></label>
+        <textarea name="text-content" id="text-content" cols="40" rows="10"
+            placeholder="Please enter your text here"></textarea>
+        <button id="click-btn">Click To Translate</button>
+        <div id="output-content"> You will get output here</div>
+    </section>
 
+    <footer>
+        <div id="about">
+            <h3>About</h3>
+        </div>
+        <p>
+            Are you a fan of minions?
+            Did you know that the gibberish they say is an actual language?
+            Use this translator to convert your text from English to Minion speak or Banana language.
+            <br>
+            <strong>Note: Only 5 API calls per hour is available.</strong>
+        </p>
+    </footer>
 
 
     <script src="app.js" type="text/javascript"></script>
