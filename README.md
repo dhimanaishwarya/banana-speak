@@ -5,7 +5,7 @@ API used from Fun Translations API - https://funtranslations.com/api/minion
 
 Technologies Stack used in this project:
 
-*HTML
-*CSS
-*VanillaJS
-*Fetch API
+  * HTML
+  * CSS
+  * VanillaJS
+  * Fetch API
