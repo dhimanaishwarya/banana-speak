@@ -4,7 +4,7 @@ Mark 6 : This is a web app to translate english sentences into banana(minions sp
 API used from Fun Translations API - https://funtranslations.com/api/minion
 
 Technologies Stack used in this project:
-HTML
-CSS
-VanillaJS
-Fetch API
+1.HTML
+2.CSS
+3.VanillaJS
+4.Fetch API
