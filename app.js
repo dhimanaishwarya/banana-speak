@@ -10,7 +10,7 @@ const serverUrl = "https://api.funtranslations.com/translate/minion.json"
 
 
 const newURL = function (text) {
-    return `${serverUrl}?text="${text}"`;
+    return `${serverUrl}?text=${text}`;
 
 }
 
